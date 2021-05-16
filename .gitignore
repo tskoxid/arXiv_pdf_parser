@@ -5,8 +5,6 @@ __pycache__/
 .idea/*
 .idea/
 
-model/*
-model/
 
 # C extensions 
 *.so

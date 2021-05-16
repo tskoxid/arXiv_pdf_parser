@@ -1,4 +1,5 @@
 from pdf_text_extraction import PdfParser
+import os
 
 
 def main(url, count):
@@ -12,6 +13,7 @@ def main(url, count):
 
 
 if __name__ == "__main__":
+    os.mkdir('output_data')
     URL_PDF = [r'https://arxiv.org/pdf/1909.11687.pdf', 'https://arxiv.org/pdf/2103.15691.pdf',
                'https://arxiv.org/pdf/1706.03762.pdf']
     parser = PdfParser()
